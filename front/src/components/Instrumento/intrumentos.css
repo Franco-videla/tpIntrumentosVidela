@@ -1,0 +1,48 @@
+.instrumentos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-venta {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.imagen-instrumento {
+  flex: none;
+  width: 150px; /* Increased width for better visibility */
+  margin-right: 20px; /* Increased margin for better spacing */
+}
+
+.imagen-instrumento img {
+  width: 100%;
+  height: auto;
+}
+
+.detalles-instrumento {
+  flex: 1; /* Allows the details section to take the remaining space */
+  height: auto; /* Changed to auto to be more flexible */
+  display: flex;
+  flex-direction: column;
+}
+
+.detalles-instrumento h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: flex;
+  margin-top: auto; /* Align buttons to the bottom */
+}
+
+.botones button {
+  margin-right: 10px;
+  padding: 5px 10px; /* Added padding for better button size */
+  border-radius: 3px; /* Slight rounding for better aesthetics */
+}
